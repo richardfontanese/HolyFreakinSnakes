@@ -341,7 +341,6 @@ public class HolyFreakinSnakes extends JFrame {
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     biteTimer.stop();
-                    System.out.println(type);
                     switch (type) {
                         case 0: {
                             button.setIcon(deadSnake);
