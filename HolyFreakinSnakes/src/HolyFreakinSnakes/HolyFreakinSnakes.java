@@ -187,7 +187,7 @@ public class HolyFreakinSnakes extends JFrame {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                bgPosition = bgPosition - 1;
+                bgPosition = bgPosition - 15;
                 jungleLabel.setBounds(bgPosition, 0, jungleWidth, jungleHeight);
                 if (bgPosition == -2 * jungleWidth / 3) {
                     bgPosition = 0;
